@@ -1,8 +1,6 @@
 # ICRA2019-Autonomous-Driving
  ICRA 2019 paper on autonomous driving
-
-
-
+ 
 * **定位**
 1. **0036** Learning Wheel Odometry and IMU Errors for Localization
 2. **0299** Expectation-Maximization for Adaptive Mixture Models in Graph Optimization
@@ -13,8 +11,8 @@
 7. **1688**	Localizing Discriminative Visual Landmarks for Place Recognition
 8. **2444**	A White-Noise-On-Jerk Motion Prior for Continuous-Time Trajectory Estimation on SE(3)
 9. **2635**	Learning to See the Wood for the Trees - Deep Laser Localization in Urban and Natural Environments on a CPU
-
-
+10. **2801** Deep Metadata Fusion for Traffic Light to Lane Assignment
+11. **3123**	Variational End-To-End Navigation and Localization
 
 *  **SLAM或者 Odometry**
 1. **0041** MH-iSAM2: Multi-hypothesis iSAM using Bayes Tree and Hypo-tree
@@ -65,7 +63,6 @@
 4. **1322**	Speeding up Iterative Closest Point Using Stochastic Gradient Descent
 5. **2359**	Robust low-overlap 3-D point cloud registration for outlier rejection
 
-
 * **导航**
 1. **0109** Analytic Collision Risk Calculation for Autonomous Vehicle Navigation
 2. **0131** Uncertainty-Aware Path Planning for Navigation on Road Networks Using Augmented MDPs
@@ -90,6 +87,7 @@
 15. **1698**	Uncertainty-Aware Driver Trajectory Prediction at Urban Intersections
 16. **2030**	Hierarchical Game-Theoretic Planning for Autonomous Vehicles
 17. **2660**	Optimal Stochastic Vehicle Path Planning Using Covariance Steering
+18. **2894** Probabilistic completeness of RRT for geometric and kinodynamic planning with forward propagation
 
 * **模型预测控制**
 1. **0214** Trust Regions for Safe Sampling-Based Model Predictive Control
@@ -141,7 +139,10 @@
 43. **2354**	Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks
 44. **2504**	Focal Loss in 3D Object Detection
 45. **2795**	DispSegNet: Leveraging Semantics for End-To-End Learning of Disparity Estimation from Stereo Imagery
-
+46. **2800**	Long-Term Occupancy Grid Prediction Using Recurrent Neural Networks
+47. **2861**	Training a Binary Weight Object Detector by Knowledge Transfer for Autonomous Driving
+48. **2877**	Geo-Supervised Visual Depth Prediction
+49. **2950**	Accurate and Efficient Seafloor Observations with Multiple Autonomous Underwater Vehicles - Theory and Experiments in a Hydrothermal Vent Field
 
 * **点云处理**
 1. **0111** Oriented Point Sampling for Plane Detection in Unorganized Point Clouds【平面检测】
@@ -154,6 +155,7 @@
 8. **1173**	Depth Completion with Deep Geometry and Context Guidance【深度补全】
 9. **1632**	SqueezeSegV2:Improved Model Structure and Unsupervised Domain Adaptation for Road-Object Segmentation from a LiDAR Point Cloud
 10. **2321**	Spatial Change Detection Using Voxel Classification by Normal Distributions Transform
+11. **2874**	A Maximum Likelihood Approach to Extract Finite Planes from 3-D Laser Scans
 
 
 * **端到端自动驾驶或者自动驾驶系统**
