@@ -1,12 +1,12 @@
 # ICRA2019-Autonomous-Driving
  ICRA 2019 paper on autonomous driving
  
-* **定位**
+* **Localization**
 1. **0036** Learning Wheel Odometry and IMU Errors for Localization
 2. **0299** Expectation-Maximization for Adaptive Mixture Models in Graph Optimization
 3. **0336** Localization with Sliding Window Factor Graphs on Third-Party Maps for Automated Driving
 4. **0589** Learning Scene Geometry for Visual Localization in Challenging Conditions
-5. **1237**	Accurate and Efficient Self-Localization on Roads Using Basic Geometric Primitives【利用车道线等检测结果修正定位结果】
+5. **1237**	Accurate and Efficient Self-Localization on Roads Using Basic Geometric Primitives
 6. **1412**	Visual Localization at Intersections with Digital Maps
 7. **1688**	Localizing Discriminative Visual Landmarks for Place Recognition
 8. **2444**	A White-Noise-On-Jerk Motion Prior for Continuous-Time Trajectory Estimation on SE(3)
@@ -14,14 +14,14 @@
 10. **2801** Deep Metadata Fusion for Traffic Light to Lane Assignment
 11. **3123**	Variational End-To-End Navigation and Localization
 
-*  **SLAM或者 Odometry**
+*  **SLAM Or Odometry**
 1. **0041** MH-iSAM2: Multi-hypothesis iSAM using Bayes Tree and Hypo-tree
-2. **0095** Visual SLAM: Why Bundle Adjust?【BA】
-3. **0122** Pose Graph Optimization for Unsupervised Monocular Visual Odometry【位姿图优化、单目视觉】
-4. **0239** Tightly Coupled 3D Lidar Inertial Odometry and Mapping【三维激光+IMU】
-5. **0257** A Linear-Complexity EKF for Visual-Inertial Navigation with Loop Closures【视觉SLAM】
-6. **0306** FMD Stereo SLAM: Fusing MVG and Direct Formulation Towards Accurate and Fast Stereo SLAM【立体视觉SLAM】
-7. **0508** Fast and Robust Initialization for Visual-Inertial SLAM【视觉SLAM】
+2. **0095** Visual SLAM: Why Bundle Adjust?
+3. **0122** Pose Graph Optimization for Unsupervised Monocular Visual Odometry
+4. **0239** Tightly Coupled 3D Lidar Inertial Odometry and Mapping
+5. **0257** A Linear-Complexity EKF for Visual-Inertial Navigation with Loop Closures
+6. **0306** FMD Stereo SLAM: Fusing MVG and Direct Formulation Towards Accurate and Fast Stereo SLAM
+7. **0508** Fast and Robust Initialization for Visual-Inertial SLAM
 8. **0595** CNN-SVO: Improving the Mapping in Semi-Direct Visual Odometry Using Single-Image Depth Prediction
 9. **0674** Visual-Inertial Navigation: A Concise Review
 10. **0717** GEN-SLAM: Generative Modeling for Monocular Simultaneous Localization and Mapping
@@ -56,20 +56,20 @@
 39. **2533**	Unsupervised Learning of Monocular Depth and Ego-Motion Using Multiple Masks
 40. **2545**	Low-Latency Visual SLAM with Appearance-Enhanced Local Map Building
 
-* **点集配准**
+* **Point Set Registration**
 1. **0593** Robust Generalized Point Set Registration using Inhomogeneous Hybrid Mixture Models via Expectation Maximization
 2. **1152**	Analysis of Robust Functions for Registration Algorithms
 3. **1205**	CELLO-3D: Estimating the Covariance of ICP in the Real World
 4. **1322**	Speeding up Iterative Closest Point Using Stochastic Gradient Descent
 5. **2359**	Robust low-overlap 3-D point cloud registration for outlier rejection
 
-* **导航**
+* **Navigation**
 1. **0109** Analytic Collision Risk Calculation for Autonomous Vehicle Navigation
 2. **0131** Uncertainty-Aware Path Planning for Navigation on Road Networks Using Augmented MDPs
 3. **0362**  A new approach to local navigation for autonomous driving vehicles based on the curvature velocity method
 4. **1340**	OVPC Mesh - 3D Free-Space Representation for Local Ground VehicleNavigation
 
-* **路径轨迹规划**
+* **Planning**
 1. **0073** Trajectory Planning for a Tractor with Multiple Trailers in Extremely Narrow Environments: A Unified Approach *
 2. **0251** Fast Stochastic Functional Path Planning in Occupancy Maps
 3. **0413** Graduated Fidelity Lattices for Motion Planning under Uncertainty
@@ -89,21 +89,21 @@
 17. **2660**	Optimal Stochastic Vehicle Path Planning Using Covariance Steering
 18. **2894** Probabilistic completeness of RRT for geometric and kinodynamic planning with forward propagation
 
-* **模型预测控制**
+* **Model Predictive Control**
 1. **0214** Trust Regions for Safe Sampling-Based Model Predictive Control
 2. **0746** Integrity Risk-Based Model Predictive Control for Mobile Robots
 
 * **感知、预测等**
 1. **0075** Detection-by-Localization: Maintenance-Free Change Object Detector
-2. **0118** Project AutoVision: Localization and 3D Scene Perception for an Autonomous Vehicle with a Multi-Camera System【自动驾驶视觉系统 检测与定位等】
-3. **0124** Dual Refinement Network for Single-Shot Object Detection【目标检测网络改进
-4. **0340** DeepSignals: Predicting Intent of Drivers Through Visual Signals【通过尾灯预测行为
-5. **0366** Predicting Vehicle Behaviors Over An Extended Horizon Using Behavior Interaction Network【预测车辆行为】
-6. **0409** Distant Vehicle Detection Using Radar and Vision【Radar与视觉融合】
-7. **0431** Road Detection through CRF based LiDAR-Camera Fusion【路面检测】
-8. **0477** A Fast and Robust 3D Person Detector and Posture Estimator for Mobile Robotic Applications【行人3D检测】
-9. **0520** Bonnet: An Open-Source Training and Deployment Framework for Semantic Segmentation in Robotics using CNNs【分割工具箱】
-10. **0547** Real-time Intent Prediction of Pedestrians for Autonomous Ground Vehicles via Spatio-Temporal DenseNet【行人行为预测】
+2. **0118** Project AutoVision: Localization and 3D Scene Perception for an Autonomous Vehicle with a Multi-Camera System
+3. **0124** Dual Refinement Network for Single-Shot Object Detection
+4. **0340** DeepSignals: Predicting Intent of Drivers Through Visual Signals
+5. **0366** Predicting Vehicle Behaviors Over An Extended Horizon Using Behavior Interaction Network
+6. **0409** Distant Vehicle Detection Using Radar and Vision
+7. **0431** Road Detection through CRF based LiDAR-Camera Fusion
+8. **0477** A Fast and Robust 3D Person Detector and Posture Estimator for Mobile Robotic Applications
+9. **0520** Bonnet: An Open-Source Training and Deployment Framework for Semantic Segmentation in Robotics using CNNs
+10. **0547** Real-time Intent Prediction of Pedestrians for Autonomous Ground Vehicles via Spatio-Temporal DenseNet
 11. **0619** A Simple Adaptive Tracker with Reminiscences
 12. **0660** SuperDepth: Self-Supervised, Super-Resolved Monocular Depth Estimation
 13. **0699** Real-Time Joint Semantic Segmentation and Depth Estimation Using Asymmetric Annotations
@@ -111,8 +111,8 @@
 15. **0817** Large-Scale Object Mining for Object Discovery from Unlabeled Video
 16. **0879** Plug-and-Play: Improve Depth Prediction via Sparse Data Propagation
 17. **0908** DFNet: Semantic Segmentation on Panoramic Images with Dynamic Loss Weights and Residual Fusion Block
-18. **1026** A Novel Multi-layer Framework for Tiny Obstacle Discovery【微小物体检测】
-19. **1145** Goal-Oriented Object Importance Estimation in On-Road Driving Videos【影响车辆行为的目标重要性估计】
+18. **1026** A Novel Multi-layer Framework for Tiny Obstacle Discovery
+19. **1145** Goal-Oriented Object Importance Estimation in On-Road Driving Videos
 20. **1186**	Detection and Tracking of Small Objects in Sparse 3D Laser Range Data
 21. **1249**	Object Classification Based on Unsupervised Learned Multi-Modal Features for Overcoming Sensor Failures
 22. **1348**	Egocentric Vision-Based Future Vehicle Localization for Intelligent Driving Assistance Systems
@@ -135,7 +135,7 @@
 39. **2178**	DSNet: Joint Learning for Scene Segmentation and Disparity Estimation
 40. **2186**	Global Vision-Based Reconstruction of Three-Dimensional Road Surfaces Using Adaptive Extended Kalman Filter
 41. **2189**	Online Vehicle Trajectory Prediction Using Policy Anticipation Network and Optimization-Based Context Reasoning
-42. **2203**	Using DP towards a Shortest Path Problem-Related Application【车道线相关】
+42. **2203**	Using DP towards a Shortest Path Problem-Related Application
 43. **2354**	Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks
 44. **2504**	Focal Loss in 3D Object Detection
 45. **2795**	DispSegNet: Leveraging Semantics for End-To-End Learning of Disparity Estimation from Stereo Imagery
@@ -144,23 +144,23 @@
 48. **2877**	Geo-Supervised Visual Depth Prediction
 49. **2950**	Accurate and Efficient Seafloor Observations with Multiple Autonomous Underwater Vehicles - Theory and Experiments in a Hydrothermal Vent Field
 
-* **点云处理**
-1. **0111** Oriented Point Sampling for Plane Detection in Unorganized Point Clouds【平面检测】
-2. **0222** Automatic Labeled LiDAR Data Generation based on Precise Human Model【自动生成三维激光标注真值 只标注行人】
-3. **0286** Hierarchical Depthwise Graph Convolutional Neural Network for 3D Semantic Segmentation of Point Clouds【点云分割、上交杨明组工作】
-4. **0378** Uncertainty Estimation for Projecting Lidar Points onto Camera Images for Moving Platforms【点云投影到图像上误差分析】
-5. **0456** Robust 3D Object Classification by Combining Point Pair Features and Graph Convolution【点云分类】
+* **Point Cloud**
+1. **0111** Oriented Point Sampling for Plane Detection in Unorganized Point Clouds
+2. **0222** Automatic Labeled LiDAR Data Generation based on Precise Human Model
+3. **0286** Hierarchical Depthwise Graph Convolutional Neural Network for 3D Semantic Segmentation of Point Clouds
+4. **0378** Uncertainty Estimation for Projecting Lidar Points onto Camera Images for Moving Platforms
+5. **0456** Robust 3D Object Classification by Combining Point Pair Features and Graph Convolution
 6. **0803** Discrete Rotation Equivariance for Point Cloud Recognition
-7. **1071** An Extrinsic Calibration Tool for Radar, Camera and Lidar【外参标定】
-8. **1173**	Depth Completion with Deep Geometry and Context Guidance【深度补全】
+7. **1071** An Extrinsic Calibration Tool for Radar, Camera and Lidar
+8. **1173**	Depth Completion with Deep Geometry and Context Guidance
 9. **1632**	SqueezeSegV2:Improved Model Structure and Unsupervised Domain Adaptation for Road-Object Segmentation from a LiDAR Point Cloud
 10. **2321**	Spatial Change Detection Using Voxel Classification by Normal Distributions Transform
 11. **2874**	A Maximum Likelihood Approach to Extract Finite Planes from 3-D Laser Scans
 
 
-* **端到端自动驾驶或者自动驾驶系统**
+* **Autonomous Driving System**
 1. **0451** Multimodal Spatio-Temporal Information in End-to-End Networks for Automotive Steering Prediction
-2. **0679** Uncertainty-Aware Data Aggregation for Deep Imitation Learning【模仿学习】
+2. **0679** Uncertainty-Aware Data Aggregation for Deep Imitation Learning
 3. **0705** Semantic Predictive Control for Explainable and Efficient Policy Learning
 4. **1299**	Deep Object-Centric Policies for Autonomous Driving
 5. **1324**	Building a Winning Self-Driving Car in Six Months
@@ -170,4 +170,3 @@
 9. **1827**	Variational End-To-End Navigation and Localization
 10. **2181** ADAPS: Autonomous Driving Via Principled Simulations
 11. **2649**	A Multi-Vehicle Trajectories Generator to Simulate Vehicle-To-Vehicle Encountering Scenarios
-
